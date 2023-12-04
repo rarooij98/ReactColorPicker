@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactColorPicker/static/css/main.0f546c08.css",
-    "main.js": "/ReactColorPicker/static/js/main.e8d03c3e.js",
-    "static/js/787.05b7a068.chunk.js": "/ReactColorPicker/static/js/787.05b7a068.chunk.js",
-    "static/media/doodles.svg": "/ReactColorPicker/static/media/doodles.b6874a5275625800c584fece73f0b43c.svg",
-    "index.html": "/ReactColorPicker/index.html",
-    "main.0f546c08.css.map": "/ReactColorPicker/static/css/main.0f546c08.css.map",
-    "main.e8d03c3e.js.map": "/ReactColorPicker/static/js/main.e8d03c3e.js.map",
-    "787.05b7a068.chunk.js.map": "/ReactColorPicker/static/js/787.05b7a068.chunk.js.map"
+    "main.css": "/ReactColorPicker/index.html/static/css/main.0f546c08.css",
+    "main.js": "/ReactColorPicker/index.html/static/js/main.da2578a8.js",
+    "static/js/787.05b7a068.chunk.js": "/ReactColorPicker/index.html/static/js/787.05b7a068.chunk.js",
+    "static/media/doodles.svg": "/ReactColorPicker/index.html/static/media/doodles.b6874a5275625800c584fece73f0b43c.svg",
+    "index.html": "/ReactColorPicker/index.html/index.html",
+    "main.0f546c08.css.map": "/ReactColorPicker/index.html/static/css/main.0f546c08.css.map",
+    "main.da2578a8.js.map": "/ReactColorPicker/index.html/static/js/main.da2578a8.js.map",
+    "787.05b7a068.chunk.js.map": "/ReactColorPicker/index.html/static/js/787.05b7a068.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f546c08.css",
-    "static/js/main.e8d03c3e.js"
+    "static/js/main.da2578a8.js"
   ]
 }
