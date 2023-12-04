@@ -1,0 +1,149 @@
+.ColorBox {
+    width: 20%;
+    height: 25%;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    /* offset space between boxes from positioning absolute: */
+    margin-bottom: -4.5px;
+}
+
+/* But any colorboxes inside a single color palette should be twice as tall */
+.SingleColorPalette .ColorBox {
+    height: 50%;
+}
+
+.ColorBox.go-back {
+    background-color: black;
+    overflow: auto;
+}
+
+.copy-button,
+.back-button {
+    width: 100px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    cursor: pointer;
+    /* position the button in the middle:*/
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -15px;
+    /* text-styles: */
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* hide until hover */
+    opacity: 0;
+}
+
+.back-button {
+    opacity: 100;
+    text-decoration: none;
+}
+
+/* when you hover the colorbox, show the copy button */
+.ColorBox:hover .copy-button {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.box-content {
+    width: 100%;
+    padding: 10px;
+    /* positioning */
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    /* text */
+    color: black;
+    font-size: 12px;
+    line-height: 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.see-more {
+    background: rgba(255, 255, 255, 0.25);
+    width: 60px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    /* positioning */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    /* text */
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px; /* same as height */
+    text-transform: uppercase;
+}
+
+.copy-overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 0;
+    transition: transform 0.6s ease-in-out;
+    transform: scale(0.1);
+}
+
+.copy-overlay.show {
+    opacity: 1;
+    z-index: 10;
+    transform: scale(50);
+    /* cover whole screen: */
+    position: absolute;
+}
+
+.copy-msg {
+    color: white;
+    /* initial scale before growing */
+    opacity: 0;
+    transform: scale(0.1);
+    /* positioning */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* center the messages in the middle*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-msg.show {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+    transition-delay: 0.3s;
+    z-index: 25;
+}
+
+.copy-msg h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    text-transform: uppercase;
+    /* text background: */
+    width: 100%;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 1em;
+    margin-bottom: 0;
+}
+
+.copy-msg p {
+    font-size: 2em;
+    font-weight: 100;
+}

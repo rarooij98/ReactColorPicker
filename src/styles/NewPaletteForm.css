@@ -1,0 +1,8 @@
+.NewPaletteForm-buttons {
+    color: white;
+    background-color: rgb(255, 163, 163);
+}
+
+.NewPaletteForm-main {
+    height: calc(100vh - 64px);
+}
