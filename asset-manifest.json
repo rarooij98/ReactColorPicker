@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ReactColorPicker/static/css/main.0f546c08.css",
-    "main.js": "/ReactColorPicker/static/js/main.64f258e9.js",
+    "main.js": "/ReactColorPicker/static/js/main.c90e16ea.js",
     "static/js/787.05b7a068.chunk.js": "/ReactColorPicker/static/js/787.05b7a068.chunk.js",
     "static/media/doodles.svg": "/ReactColorPicker/static/media/doodles.b6874a5275625800c584fece73f0b43c.svg",
     "index.html": "/ReactColorPicker/index.html",
     "main.0f546c08.css.map": "/ReactColorPicker/static/css/main.0f546c08.css.map",
-    "main.64f258e9.js.map": "/ReactColorPicker/static/js/main.64f258e9.js.map",
+    "main.c90e16ea.js.map": "/ReactColorPicker/static/js/main.c90e16ea.js.map",
     "787.05b7a068.chunk.js.map": "/ReactColorPicker/static/js/787.05b7a068.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f546c08.css",
-    "static/js/main.64f258e9.js"
+    "static/js/main.c90e16ea.js"
   ]
 }
